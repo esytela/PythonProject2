@@ -61,3 +61,5 @@ print(str.lower())
 #문자열 바꾸기
 str = "hello, world"
 print(str.replace("h","J"))
+
+print('git test')
