@@ -20,7 +20,7 @@ range(start, stop)
 '''
 #1~9
 for n in range(1,10):
-    print(f'{dan}x{n}={dan*n}', end='')
+    print(f'{dan}x{n}={dan*n} ', end='')
 print()
 
 '''
@@ -28,5 +28,5 @@ range(start, stop, step)
 '''
 #1부터 2씩 증가 그러나 10보다 작음
 for n in range(1, 10, 2):
-    print(f'{dan}x{n}={dan * n}', end='')
+    print(f'{dan}x{n}={dan * n} ', end='')
 print()

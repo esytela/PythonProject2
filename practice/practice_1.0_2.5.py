@@ -121,4 +121,3 @@ list = ['a','b','c','d']
 list.extend(['e','f'])
 print(list)
 
-print('빨리와')
