@@ -1,7 +1,7 @@
 thistuple = ('피카츄', '라이츄', '파이리')
 print(thistuple)
 
-thisset = {'오빠', '바보', '똥꼬'}
+thisset = {'오빠', '빵꾸', '똥꾸'}
 print(thisset)
 
 for x in thisset:
