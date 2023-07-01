@@ -4,6 +4,8 @@ CSV(comma-separated values)
 '''
 student_list= []
 with open('학생명단.csv', 'rt', encoding='UTF-8') as file:
+    #r/rt = read text 단위로
+    #rb = read bytes 단위로
     file.readline( )
     while True:
         line = file.readline()
