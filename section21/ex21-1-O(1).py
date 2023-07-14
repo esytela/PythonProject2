@@ -13,3 +13,4 @@ def return_first_value(arr):
 # 실행코드
 arr = [1,2,3,5,7,8]
 print(return_first_value(arr))
+

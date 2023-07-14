@@ -24,3 +24,4 @@ def fibonacci(n):
 
 print(fibonacci(3)) #n번째 값에 해당하는 fibonacci를 보여줌
 #높으면 높을수록 재기의 재기의 재기
+

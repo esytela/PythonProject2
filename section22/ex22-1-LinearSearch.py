@@ -16,3 +16,4 @@ def linear_search(arr, x):
 arr = [1, 3, 4, 7, 8]
 print(linear_search(arr, 3))
 # 하나 하나씩 비교하면서 맞는 값의 인덱스 번호를 프린트함
+

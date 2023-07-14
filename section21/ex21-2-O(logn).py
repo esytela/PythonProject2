@@ -30,3 +30,4 @@ arr = sorted(arr)
 print(arr)
 print(binary_search(arr, 5))
 
+
