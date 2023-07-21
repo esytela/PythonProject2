@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/estel/PythonProject2/section25/py_board.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="150"/><column_width id="3" width="2230"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainPY_BOARD"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">delete from py_board;
+
+INSERT INTO PY_BOARD 
+(BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT)
+ VALUES ('TEST1', 'dev1', '데이터 검색 테스트 중입니다.');
+ 
+INSERT INTO PY_BOARD 
+(BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT)
+ VALUES ('TEST2', 'dev2', '데이터 검색 테스트 중입니다.');
+ 
+INSERT INTO PY_BOARD 
+(BOARD_TITLE, BOARD_WRITER, BOARD_CONTENT)
+ VALUES ('TEST3', 'dev3', '데이터 검색 테스트 중입니다.');
+ 
+commit;
+
+SELECT * FROM PY_BOARD;</sql><current_tab id="0"/></tab_sql></sqlb_project>
